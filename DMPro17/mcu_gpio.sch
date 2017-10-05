@@ -1,0 +1,223 @@
+EESchema Schematic File Version 2
+LIBS:Arduino-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:freetronics_schematic
+LIBS:EFM32GG990F1024
+LIBS:Arduino-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EFM32GG990F1024 U3
+U 1 1 59CA693E
+P 2350 1750
+F 0 "U3" H 2680 1930 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 2980 1930 60  0000 L BNN
+F 2 "" H 2350 1750 60  0001 C CNN
+F 3 "" H 2350 1750 60  0001 C CNN
+	1    2350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32GG990F1024 U3
+U 2 1 59CA86DD
+P 6100 1700
+F 0 "U3" H 6430 1880 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 6730 1880 60  0000 L BNN
+F 2 "" H 6100 1700 60  0001 C CNN
+F 3 "" H 6100 1700 60  0001 C CNN
+	2    6100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32GG990F1024 U3
+U 3 1 59CA8716
+P 9250 1800
+F 0 "U3" H 9580 1980 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 9880 1980 60  0000 L BNN
+F 2 "" H 9250 1800 60  0001 C CNN
+F 3 "" H 9250 1800 60  0001 C CNN
+	3    9250 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5650 4400 0    60   BiDi ~ 0
+SDA
+Text HLabel 5650 4500 0    60   BiDi ~ 0
+SCL
+Wire Wire Line
+	5650 4400 6100 4400
+Wire Wire Line
+	5650 4500 6100 4500
+Text HLabel 5600 3000 0    60   Output ~ 0
+display_MOSI
+Text HLabel 5600 3200 0    60   Output ~ 0
+diaplay_SCK
+Wire Wire Line
+	5600 3200 6100 3200
+Wire Wire Line
+	5600 3000 6100 3000
+Text HLabel 5600 3300 0    60   Output ~ 0
+display_CS
+Wire Wire Line
+	6100 3300 5600 3300
+$Comp
+L C C13
+U 1 1 59CAB4C7
+P 2050 5450
+F 0 "C13" H 2075 5550 50  0000 L CNN
+F 1 "12p" H 2075 5350 50  0000 L CNN
+F 2 "" H 2088 5300 50  0001 C CNN
+F 3 "" H 2050 5450 50  0001 C CNN
+	1    2050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 59CAB503
+P 1250 5450
+F 0 "C12" H 1275 5550 50  0000 L CNN
+F 1 "12p" H 1275 5350 50  0000 L CNN
+F 2 "" H 1288 5300 50  0001 C CNN
+F 3 "" H 1250 5450 50  0001 C CNN
+	1    1250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4850 2050 5300
+Wire Wire Line
+	2350 4750 1250 4750
+Wire Wire Line
+	1250 4750 1250 5300
+Wire Wire Line
+	1250 5600 1250 5900
+Wire Wire Line
+	1250 5900 2050 5900
+Wire Wire Line
+	2050 5900 2050 5600
+$Comp
+L GND #PWR034
+U 1 1 59CAB5B5
+P 1650 5900
+F 0 "#PWR034" H 1650 5650 50  0001 C CNN
+F 1 "GND" H 1650 5750 50  0000 C CNN
+F 2 "" H 1650 5900 50  0001 C CNN
+F 3 "" H 1650 5900 50  0001 C CNN
+	1    1650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4850 2050 4850
+$Comp
+L Crystal Y1
+U 1 1 59CAB61E
+P 1650 5100
+F 0 "Y1" H 1650 5250 50  0000 C CNN
+F 1 "48MHz, 8pF" H 1650 4950 50  0000 C CNN
+F 2 "" H 1650 5100 50  0001 C CNN
+F 3 "" H 1650 5100 50  0001 C CNN
+	1    1650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5100 2050 5100
+Connection ~ 2050 5100
+Wire Wire Line
+	1500 5100 1250 5100
+Connection ~ 1250 5100
+$Comp
+L CONN_02X10 J?
+U 1 1 59CBE844
+P 8550 5300
+F 0 "J?" H 8550 5850 50  0000 C CNN
+F 1 "CONN_02X10" V 8550 5300 50  0000 C CNN
+F 2 "" H 8550 4100 50  0001 C CNN
+F 3 "" H 8550 4100 50  0001 C CNN
+	1    8550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4950 8800 5750
+Connection ~ 8800 5050
+Connection ~ 8800 5150
+Connection ~ 8800 5250
+Connection ~ 8800 5350
+Connection ~ 8800 5450
+Connection ~ 8800 5550
+Connection ~ 8800 5650
+Wire Wire Line
+	9250 3500 7950 3500
+Wire Wire Line
+	7950 3500 7950 5250
+Wire Wire Line
+	7950 5250 8300 5250
+Wire Wire Line
+	8300 5150 8050 5150
+Wire Wire Line
+	8050 5150 8050 3600
+Wire Wire Line
+	8050 3600 9250 3600
+Wire Wire Line
+	9250 3700 8150 3700
+Wire Wire Line
+	8150 3700 8150 5450
+Wire Wire Line
+	8150 5450 8300 5450
+$Comp
+L GND #PWR?
+U 1 1 59CBEC1D
+P 8800 5750
+F 0 "#PWR?" H 8800 5500 50  0001 C CNN
+F 1 "GND" H 8800 5600 50  0000 C CNN
+F 2 "" H 8800 5750 50  0001 C CNN
+F 3 "" H 8800 5750 50  0001 C CNN
+	1    8800 5750
+	1    0    0    -1  
+$EndComp
+Text HLabel 8300 4650 2    60   Input ~ 0
+VMCU
+Text HLabel 7950 5550 0    60   Output ~ 0
+RST
+Wire Wire Line
+	8300 5550 7950 5550
+Wire Wire Line
+	8300 4850 8300 4650
+$EndSCHEMATC

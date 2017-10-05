@@ -1,0 +1,348 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:freetronics_schematic
+LIBS:EFM32GG990F1024
+LIBS:DMPro17-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EFM32GG990F1024 U2
+U 1 1 59CC100B
+P 2500 1000
+AR Path="/59CC100B" Ref="U2"  Part="1" 
+AR Path="/59CB39A9/59CC100B" Ref="U2"  Part="1" 
+F 0 "U2" H 2830 1180 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 3130 1180 60  0000 L BNN
+F 2 "EnergyMicro:EFM32_BGA112" H 2500 1000 60  0001 C CNN
+F 3 "" H 2500 1000 60  0001 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32GG990F1024 U2
+U 2 1 59CC100C
+P 5500 1250
+AR Path="/59CC100C" Ref="U2"  Part="2" 
+AR Path="/59CB39A9/59CC100C" Ref="U2"  Part="2" 
+F 0 "U2" H 5830 1430 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 6130 1430 60  0000 L BNN
+F 2 "EnergyMicro:EFM32_BGA112" H 5500 1250 60  0001 C CNN
+F 3 "" H 5500 1250 60  0001 C CNN
+	2    5500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32GG990F1024 U2
+U 3 1 59CC100D
+P 8700 1700
+AR Path="/59CC100D" Ref="U2"  Part="3" 
+AR Path="/59CB39A9/59CC100D" Ref="U2"  Part="3" 
+F 0 "U2" H 9030 1880 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 9330 1880 60  0000 L BNN
+F 2 "EnergyMicro:EFM32_BGA112" H 8700 1700 60  0001 C CNN
+F 3 "" H 8700 1700 60  0001 C CNN
+	3    8700 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 5500 3950 0    60   BiDi ~ 0
+SDA
+Text HLabel 5500 4050 0    60   BiDi ~ 0
+SCL
+Text HLabel 5500 2550 0    60   Output ~ 0
+display_MOSI
+Text HLabel 5500 2750 0    60   Output ~ 0
+display_SCK
+Text HLabel 5500 2850 0    60   Output ~ 0
+display_CS
+$Comp
+L CONN_02X10 J1
+U 1 1 59CC1012
+P 8000 5200
+F 0 "J1" H 8000 5750 50  0000 C CNN
+F 1 "CONN_02X10" V 8000 5200 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-2034_2x10x2.54mm_Straight" H 8000 4000 50  0001 C CNN
+F 3 "" H 8000 4000 50  0001 C CNN
+	1    8000 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4850 8250 5650
+Connection ~ 8250 4950
+Connection ~ 8250 5050
+Connection ~ 8250 5150
+Connection ~ 8250 5250
+Connection ~ 8250 5350
+Connection ~ 8250 5450
+Connection ~ 8250 5550
+Wire Wire Line
+	8700 3400 7400 3400
+Wire Wire Line
+	7400 3400 7400 5150
+Wire Wire Line
+	7400 5150 7750 5150
+Wire Wire Line
+	7750 5050 7500 5050
+Wire Wire Line
+	7500 5050 7500 3500
+Wire Wire Line
+	7500 3500 8700 3500
+Wire Wire Line
+	8700 3600 7600 3600
+Wire Wire Line
+	7600 3600 7600 5350
+Wire Wire Line
+	7600 5350 7750 5350
+$Comp
+L GND #PWR029
+U 1 1 59CC1013
+P 8250 5650
+F 0 "#PWR029" H 8250 5400 50  0001 C CNN
+F 1 "GND" H 8250 5500 50  0000 C CNN
+F 2 "" H 8250 5650 50  0001 C CNN
+F 3 "" H 8250 5650 50  0001 C CNN
+	1    8250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59CC1619
+P 4700 5300
+F 0 "C1" H 4725 5400 50  0000 L CNN
+F 1 "10u" H 4725 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4738 5150 50  0001 C CNN
+F 3 "" H 4700 5300 50  0001 C CNN
+	1    4700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 59CC161A
+P 4700 5450
+F 0 "#PWR030" H 4700 5200 50  0001 C CNN
+F 1 "GND" H 4700 5300 50  0000 C CNN
+F 2 "" H 4700 5450 50  0001 C CNN
+F 3 "" H 4700 5450 50  0001 C CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5150 4700 5150
+Wire Wire Line
+	4500 5750 4500 6450
+Connection ~ 4500 5950
+Connection ~ 4500 6050
+Connection ~ 4500 6150
+Connection ~ 4500 6250
+Connection ~ 4500 6350
+Wire Wire Line
+	4500 6850 4500 7550
+Connection ~ 4500 7050
+Connection ~ 4500 7150
+Connection ~ 4500 7250
+Connection ~ 4500 7350
+Connection ~ 4500 7450
+Wire Wire Line
+	2900 6450 2900 6250
+Connection ~ 2900 6350
+Wire Wire Line
+	2900 7350 2900 7550
+Connection ~ 2900 7450
+NoConn ~ 2900 5550
+NoConn ~ 2900 5750
+NoConn ~ 2900 5850
+$Sheet
+S 1800 3850 500  450 
+U 59CC2D88
+F0 "CLK" 60
+F1 "CLK.sch" 60
+F2 "HFXTAL_N" O R 2300 4100 60 
+$EndSheet
+Wire Wire Line
+	2500 4100 2300 4100
+$Comp
+L +3.3V #PWR031
+U 1 1 59CC3CAF
+P 7750 4750
+F 0 "#PWR031" H 7750 4600 50  0001 C CNN
+F 1 "+3.3V" H 7750 4890 50  0000 C CNN
+F 2 "" H 7750 4750 50  0001 C CNN
+F 3 "" H 7750 4750 50  0001 C CNN
+	1    7750 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5450 5300 5450
+Wire Wire Line
+	5300 5450 5300 4750
+Wire Wire Line
+	5300 4750 2900 4750
+Wire Wire Line
+	2900 4750 2900 5150
+$Sheet
+S 4700 6350 600  600 
+U 59CC46E0
+F0 "decouplingIO" 60
+F1 "decouplingIO.sch" 60
+F2 "VSS_DREG" B L 4700 6850 60 
+F3 "IOVDD_6" B L 4700 6450 60 
+$EndSheet
+Wire Wire Line
+	4500 6450 4700 6450
+Wire Wire Line
+	4500 6850 4700 6850
+$Sheet
+S 1850 6350 650  1100
+U 59CC4713
+F0 "decouplingAV" 60
+F1 "decouplingAV.sch" 60
+F2 "AVSS" B R 2500 7350 60 
+F3 "AVDD" B R 2500 6450 60 
+$EndSheet
+Wire Wire Line
+	2500 6450 2900 6450
+Wire Wire Line
+	2500 7350 2900 7350
+Text HLabel 8700 1700 0    60   BiDi ~ 0
+GPIO0
+Text HLabel 8700 1800 0    60   BiDi ~ 0
+GPIO1
+Text HLabel 8700 1900 0    60   BiDi ~ 0
+GPIO2
+Text HLabel 8700 2000 0    60   BiDi ~ 0
+GPIO3
+NoConn ~ 8700 4400
+NoConn ~ 8700 4300
+NoConn ~ 8700 4200
+NoConn ~ 8700 4100
+NoConn ~ 8700 4000
+NoConn ~ 8700 3900
+NoConn ~ 8700 3800
+NoConn ~ 8700 3700
+NoConn ~ 8700 3200
+NoConn ~ 8700 3100
+NoConn ~ 8700 3000
+NoConn ~ 8700 2900
+NoConn ~ 8700 2800
+NoConn ~ 8700 2700
+NoConn ~ 8700 2600
+NoConn ~ 8700 2500
+NoConn ~ 8700 2400
+NoConn ~ 8700 2300
+NoConn ~ 8700 2200
+NoConn ~ 8700 2100
+NoConn ~ 5500 3850
+NoConn ~ 5500 3750
+NoConn ~ 5500 3650
+NoConn ~ 5500 3550
+NoConn ~ 5500 3450
+NoConn ~ 5500 3350
+NoConn ~ 5500 3250
+NoConn ~ 5500 3150
+NoConn ~ 5500 3050
+NoConn ~ 5500 2650
+NoConn ~ 5500 2350
+NoConn ~ 5500 2250
+NoConn ~ 5500 2150
+NoConn ~ 5500 2050
+NoConn ~ 5500 1950
+NoConn ~ 5500 1850
+NoConn ~ 5500 1750
+NoConn ~ 5500 1550
+NoConn ~ 5500 1450
+NoConn ~ 5500 1350
+NoConn ~ 5500 1250
+NoConn ~ 2500 1000
+NoConn ~ 2500 1100
+NoConn ~ 2500 1200
+NoConn ~ 2500 1300
+NoConn ~ 2500 1400
+NoConn ~ 2500 1500
+NoConn ~ 2500 1600
+NoConn ~ 2500 1700
+NoConn ~ 2500 1800
+NoConn ~ 2500 1900
+NoConn ~ 2500 2000
+NoConn ~ 2500 2100
+NoConn ~ 2500 2200
+NoConn ~ 2500 2300
+NoConn ~ 2500 2400
+NoConn ~ 2500 2500
+NoConn ~ 2500 2700
+NoConn ~ 2500 2800
+NoConn ~ 2500 2900
+NoConn ~ 2500 3000
+NoConn ~ 2500 3100
+NoConn ~ 2500 3200
+NoConn ~ 2500 3300
+NoConn ~ 2500 3400
+NoConn ~ 2500 3500
+NoConn ~ 2500 3600
+NoConn ~ 2500 3700
+NoConn ~ 2500 3800
+NoConn ~ 2500 3900
+NoConn ~ 2500 4200
+NoConn ~ 8250 4750
+NoConn ~ 7750 4850
+NoConn ~ 7750 4950
+NoConn ~ 7750 5250
+NoConn ~ 7750 5550
+NoConn ~ 7750 5650
+$Comp
+L EFM32GG990F1024 U2
+U 4 1 59D0C6CA
+P 2900 5150
+AR Path="/59D0C6CA" Ref="U2"  Part="4" 
+AR Path="/59CB39A9/59D0C6CA" Ref="U2"  Part="4" 
+F 0 "U2" H 3230 5330 60  0000 L BNN
+F 1 "EFM32GG990F1024" H 3530 5330 60  0000 L BNN
+F 2 "EnergyMicro:EFM32_BGA112" H 2900 5150 60  0001 C CNN
+F 3 "" H 2900 5150 60  0001 C CNN
+	4    2900 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 4000
+Text HLabel 5500 1650 0    60   Output ~ 0
+display_EXTCOMIN
+Text HLabel 5500 2950 0    60   Output ~ 0
+display_EXTMODE
+$EndSCHEMATC
