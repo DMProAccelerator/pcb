@@ -1,0 +1,167 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:freetronics_schematic
+LIBS:EFM32GG990F1024
+LIBS:DMPro17-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C10
+U 1 1 59CC5920
+P 4950 3700
+F 0 "C10" H 4975 3800 50  0000 L CNN
+F 1 "10n" H 4975 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4988 3550 50  0001 C CNN
+F 3 "" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 59CC5921
+P 5350 3700
+F 0 "C11" H 5375 3800 50  0000 L CNN
+F 1 "10n" H 5375 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5388 3550 50  0001 C CNN
+F 3 "" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 59CC5922
+P 5750 3700
+F 0 "C12" H 5775 3800 50  0000 L CNN
+F 1 "10n" H 5775 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5788 3550 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 59CC5923
+P 6150 3700
+F 0 "C13" H 6175 3800 50  0000 L CNN
+F 1 "10u" H 6175 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6188 3550 50  0001 C CNN
+F 3 "" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3250 4700 3250
+Wire Wire Line
+	4950 3250 4950 3550
+Wire Wire Line
+	5350 3250 5350 3550
+Connection ~ 4950 3250
+Wire Wire Line
+	5750 3250 5750 3550
+Connection ~ 5350 3250
+Wire Wire Line
+	6150 3250 6150 3550
+Connection ~ 5750 3250
+Wire Wire Line
+	6150 4150 4700 4150
+Wire Wire Line
+	4950 4150 4950 3850
+Wire Wire Line
+	5350 4150 5350 3850
+Connection ~ 4950 4150
+Wire Wire Line
+	5750 4150 5750 3850
+Connection ~ 5350 4150
+Wire Wire Line
+	6150 4150 6150 3850
+Connection ~ 5750 4150
+$Comp
+L R R1
+U 1 1 59CC5924
+P 6300 3250
+F 0 "R1" V 6380 3250 50  0000 C CNN
+F 1 "R" V 6300 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6230 3250 50  0001 C CNN
+F 3 "" H 6300 3250 50  0001 C CNN
+	1    6300 3250
+	0    -1   1    0   
+$EndComp
+Connection ~ 6150 3250
+$Comp
+L L L1
+U 1 1 59CC5925
+P 6600 3250
+F 0 "L1" V 6550 3250 50  0000 C CNN
+F 1 "L" V 6675 3250 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 6600 3250 50  0001 C CNN
+F 3 "" H 6600 3250 50  0001 C CNN
+	1    6600 3250
+	0    1    -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR037
+U 1 1 59CC5926
+P 6750 3250
+F 0 "#PWR037" H 6750 3100 50  0001 C CNN
+F 1 "+3.3V" H 6750 3390 50  0000 C CNN
+F 2 "" H 6750 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0001 C CNN
+	1    6750 3250
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 59CC5927
+P 6150 4150
+F 0 "#PWR038" H 6150 3900 50  0001 C CNN
+F 1 "GND" H 6150 4000 50  0000 C CNN
+F 2 "" H 6150 4150 50  0001 C CNN
+F 3 "" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	-1   0    0    -1  
+$EndComp
+Text HLabel 4700 3250 0    60   BiDi ~ 0
+AVDD
+Text HLabel 4700 4150 0    60   BiDi ~ 0
+AVSS
+$EndSCHEMATC

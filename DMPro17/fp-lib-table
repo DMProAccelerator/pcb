@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EnergyMicro)(type KiCad)(uri "$(KIPRJMOD)/EnergyMicro.pretty")(options "")(descr ""))
+)
