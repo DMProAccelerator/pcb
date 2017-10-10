@@ -1,4 +1,4 @@
-update=Tuesday 26. September 2017 14.53.51
+update=Sunday 08. October 2017 16:07:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=/Users/karlandreaseggan/Documents/Skole/NTNU/Emner/Host2017/DMPro/KiCAD/freetronics_kicad_library-master/freetronics_schematic
 LibName32=EFM32GG990F1024
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../../../../../../../Desktop/down/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
