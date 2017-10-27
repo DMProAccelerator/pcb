@@ -1,0 +1,2 @@
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/arm-none-eabi-ar qc libdevice.a  CMakeFiles/device.dir/device/EFM32GG/Source/GCC/startup_efm32gg.S.obj CMakeFiles/device.dir/device/EFM32GG/Source/system_efm32gg.c.obj
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/arm-none-eabi-ranlib libdevice.a

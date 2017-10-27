@@ -1,0 +1,7 @@
+device EFM32GG990F1024
+h
+loadbin efm32-test.bin, 0x00000000
+verifybin efm32-test.bin, 0x00000000
+r
+g
+qc

@@ -1,0 +1,15 @@
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/rebuild_cache.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/edit_cache.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/r.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/reset.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/erase.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/d.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/e.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/f.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/flash.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/ds.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/efm32-test.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/device.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/debug-server.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/debug.dir
+/Users/alfme/efm32-base/builds/efm32gg/CMakeFiles/emlib.dir
