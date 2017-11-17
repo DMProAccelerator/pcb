@@ -1,9 +1,0 @@
-usb
-si 1
-device EFM32GG990F1024
-speed auto
-erase
-loadbin bin/out.bin, 0x0
-r
-g
-exit

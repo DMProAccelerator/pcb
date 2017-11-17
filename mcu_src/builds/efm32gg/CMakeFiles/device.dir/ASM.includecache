@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alfme/Documents/Docs/Skole/NTNU/5/dmpro/GitHub/pcb/mcu_clean/device/EFM32GG/Source/GCC/startup_efm32gg.S
+

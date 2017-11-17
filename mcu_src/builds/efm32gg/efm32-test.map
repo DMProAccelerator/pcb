@@ -1,0 +1,1447 @@
+Archive member included to satisfy reference by file (symbol)
+
+libdevice.a(startup_efm32gg.S.obj)
+                              (Reset_Handler)
+libdevice.a(system_efm32gg.c.obj)
+                              libdevice.a(startup_efm32gg.S.obj) (SystemInit)
+libemlib.a(em_cmu.c.obj)      CMakeFiles/efm32-test.dir/source/main.c.obj (CMU_ClockEnable)
+libemlib.a(em_ebi.c.obj)      CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj (EBI_Init)
+libemlib.a(em_gpio.c.obj)     CMakeFiles/efm32-test.dir/source/main.c.obj (GPIO_PinModeSet)
+libemlib.a(em_system.c.obj)   CMakeFiles/efm32-test.dir/source/main.c.obj (SYSTEM_ChipRevisionGet)
+libemlib.a(em_usart.c.obj)    CMakeFiles/efm32-test.dir/source/uart.c.obj (USART_Enable)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+                              CMakeFiles/efm32-test.dir/source/communicator.c.obj (__aeabi_i2d)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+                              CMakeFiles/efm32-test.dir/source/communicator.c.obj (__aeabi_dmul)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixunsdfsi.o)
+                              CMakeFiles/efm32-test.dir/source/communicator.c.obj (__aeabi_d2uiz)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+                              CMakeFiles/efm32-test.dir/source/image_writer.c.obj (__aeabi_d2f)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                              CMakeFiles/efm32-test.dir/source/image_writer.c.obj (__aeabi_i2f)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+                              CMakeFiles/efm32-test.dir/source/image_writer.c.obj (__aeabi_fcmpeq)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+                              CMakeFiles/efm32-test.dir/source/image_writer.c.obj (__aeabi_f2iz)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                              libemlib.a(em_usart.c.obj) (__aeabi_uldivmod)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_dvmd_tls.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+                              CMakeFiles/efm32-test.dir/source/communicator.c.obj (free)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o) (_free_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o) (_malloc_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+                              CMakeFiles/efm32-test.dir/source/custom_font.c.obj (vsnprintf)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o) (_svfprintf_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o) (errno)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o) (memcpy)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+/Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                              /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+slaveRxBufferIndex  0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+errno               0x4               /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+masterRxBufferIndex
+                    0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+slaveRxBuffer       0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+recv_callback       0x4               CMakeFiles/efm32-test.dir/source/uart.c.obj
+slaveRxBufferSize   0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+masterRxBufferSize  0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+slaveTxBufferSize   0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+pynq_map            0x8               CMakeFiles/efm32-test.dir/source/communicator.c.obj
+rxBuf               0x110             CMakeFiles/efm32-test.dir/source/uart.c.obj
+buffer              0x903             CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+pynqs               0x10              CMakeFiles/efm32-test.dir/source/communicator.c.obj
+pynq_num            0x4               CMakeFiles/efm32-test.dir/source/communicator.c.obj
+masterRxBuffer      0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+last_char           0x1               CMakeFiles/efm32-test.dir/source/communicator.c.obj
+slaveTxBuffer       0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+com_buffer          0x200             CMakeFiles/efm32-test.dir/source/communicator.c.obj
+slaveTxBufferIndex  0x4               CMakeFiles/efm32-test.dir/source/spi.c.obj
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .data          0x0000000000000000        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .text.set_byte
+                0x0000000000000000       0x28 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .text.set_single_pixel
+                0x0000000000000000       0xac CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .text.pos_to_buffer_pos
+                0x0000000000000000       0x18 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ COMMON         0x0000000000000000       0x24 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .text.USART2_sendBuffer
+                0x0000000000000000       0x64 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .data.bit_mask
+                0x0000000000000000        0x9 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .rodata.welcomeString
+                0x0000000000000000       0x2a CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .rodata.welLen
+                0x0000000000000000        0x4 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .rodata.ofsLen
+                0x0000000000000000        0x4 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.uartGetChar
+                0x0000000000000000       0x54 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.uartPutChar
+                0x0000000000000000       0x70 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.test_callback
+                0x0000000000000000       0x14 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_BusControlModeGet
+                0x0000000000000000        0xc CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_DipSwitchGet
+                0x0000000000000000       0x18 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_DisplayControl
+                0x0000000000000000      0x158 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_EnergyModeSet
+                0x0000000000000000       0x24 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_InterruptDisable
+                0x0000000000000000       0x48 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_InterruptEnable
+                0x0000000000000000       0x40 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_InterruptFlagsClear
+                0x0000000000000000       0x64 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_InterruptFlagsSet
+                0x0000000000000000       0x24 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_InterruptFlagsGet
+                0x0000000000000000       0x14 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_JoystickGet
+                0x0000000000000000       0x1c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_PushButtonsGet
+                0x0000000000000000       0x1c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .bss.index     0x0000000000000000        0x4 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .data          0x0000000000000000        0x0 libdevice.a(startup_efm32gg.S.obj)
+ .bss           0x0000000000000000        0x0 libdevice.a(startup_efm32gg.S.obj)
+ .text          0x0000000000000000        0x0 libdevice.a(system_efm32gg.c.obj)
+ .data          0x0000000000000000        0x0 libdevice.a(system_efm32gg.c.obj)
+ .bss           0x0000000000000000        0x0 libdevice.a(system_efm32gg.c.obj)
+ .text.SystemMaxCoreClockGet
+                0x0000000000000000        0xc libdevice.a(system_efm32gg.c.obj)
+ .text.SystemHFXOClockGet
+                0x0000000000000000        0xc libdevice.a(system_efm32gg.c.obj)
+ .text.SystemHFXOClockSet
+                0x0000000000000000       0x2c libdevice.a(system_efm32gg.c.obj)
+ .text.SystemLFXOClockSet
+                0x0000000000000000       0x2c libdevice.a(system_efm32gg.c.obj)
+ .text          0x0000000000000000        0x0 libemlib.a(em_cmu.c.obj)
+ .data          0x0000000000000000        0x0 libemlib.a(em_cmu.c.obj)
+ .bss           0x0000000000000000        0x0 libemlib.a(em_cmu.c.obj)
+ .text.BUS_RegMaskedWrite
+                0x0000000000000000       0x20 libemlib.a(em_cmu.c.obj)
+ .text.CMU_Log2ToDiv
+                0x0000000000000000       0x14 libemlib.a(em_cmu.c.obj)
+ .text.flashWaitStateControl
+                0x0000000000000000       0xc0 libemlib.a(em_cmu.c.obj)
+ .text.flashWaitStateMax
+                0x0000000000000000       0x14 libemlib.a(em_cmu.c.obj)
+ .text.CMU_UpdateWaitStates
+                0x0000000000000000       0x18 libemlib.a(em_cmu.c.obj)
+ .text.CMU_AUXHFRCOBandGet
+                0x0000000000000000       0x14 libemlib.a(em_cmu.c.obj)
+ .text.CMU_AUXHFRCOBandSet
+                0x0000000000000000       0xb0 libemlib.a(em_cmu.c.obj)
+ .text.CMU_Calibrate
+                0x0000000000000000       0x8c libemlib.a(em_cmu.c.obj)
+ .text.CMU_CalibrateConfig
+                0x0000000000000000       0xd4 libemlib.a(em_cmu.c.obj)
+ .text.CMU_CalibrateCountGet
+                0x0000000000000000       0x34 libemlib.a(em_cmu.c.obj)
+ .text.CMU_ClockDivGet
+                0x0000000000000000      0x16c libemlib.a(em_cmu.c.obj)
+ .text.CMU_ClockDivSet
+                0x0000000000000000      0x224 libemlib.a(em_cmu.c.obj)
+ .text.CMU_ClockSelectSet
+                0x0000000000000000      0x2b4 libemlib.a(em_cmu.c.obj)
+ .text.CMU_FreezeEnable
+                0x0000000000000000       0x34 libemlib.a(em_cmu.c.obj)
+ .text.CMU_HFRCOBandGet
+                0x0000000000000000       0x14 libemlib.a(em_cmu.c.obj)
+ .text.CMU_HFRCOBandSet
+                0x0000000000000000       0xec libemlib.a(em_cmu.c.obj)
+ .text.CMU_HFRCOStartupDelayGet
+                0x0000000000000000       0x14 libemlib.a(em_cmu.c.obj)
+ .text.CMU_HFRCOStartupDelaySet
+                0x0000000000000000       0x28 libemlib.a(em_cmu.c.obj)
+ .text.CMU_HFXOInit
+                0x0000000000000000       0x58 libemlib.a(em_cmu.c.obj)
+ .text.CMU_LCDClkFDIVGet
+                0x0000000000000000       0x10 libemlib.a(em_cmu.c.obj)
+ .text.CMU_LCDClkFDIVSet
+                0x0000000000000000       0x34 libemlib.a(em_cmu.c.obj)
+ .text.CMU_LFXOInit
+                0x0000000000000000       0x80 libemlib.a(em_cmu.c.obj)
+ .text.CMU_OscillatorEnable
+                0x0000000000000000       0xc4 libemlib.a(em_cmu.c.obj)
+ .text.CMU_OscillatorTuningGet
+                0x0000000000000000       0x4c libemlib.a(em_cmu.c.obj)
+ .text.CMU_OscillatorTuningSet
+                0x0000000000000000       0x70 libemlib.a(em_cmu.c.obj)
+ .text.CMU_PCNTClockExternalGet
+                0x0000000000000000       0x54 libemlib.a(em_cmu.c.obj)
+ .text.CMU_PCNTClockExternalSet
+                0x0000000000000000       0x38 libemlib.a(em_cmu.c.obj)
+ .text          0x0000000000000000        0x0 libemlib.a(em_ebi.c.obj)
+ .data          0x0000000000000000        0x0 libemlib.a(em_ebi.c.obj)
+ .bss           0x0000000000000000        0x0 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTFrameBaseSet
+                0x0000000000000000       0x14 libemlib.a(em_ebi.c.obj)
+ .text.EBI_BankEnable
+                0x0000000000000000       0x78 libemlib.a(em_ebi.c.obj)
+ .text.EBI_BankAddress
+                0x0000000000000000       0xe4 libemlib.a(em_ebi.c.obj)
+ .text.EBI_PolaritySet
+                0x0000000000000000      0x110 libemlib.a(em_ebi.c.obj)
+ .text.EBI_ReadTimingSet
+                0x0000000000000000       0x38 libemlib.a(em_ebi.c.obj)
+ .text.EBI_WriteTimingSet
+                0x0000000000000000       0x38 libemlib.a(em_ebi.c.obj)
+ .text.EBI_AddressTimingSet
+                0x0000000000000000       0x30 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTInit
+                0x0000000000000000       0xf8 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTSizeSet
+                0x0000000000000000       0x20 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTHPorchSet
+                0x0000000000000000       0x28 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTVPorchSet
+                0x0000000000000000       0x28 libemlib.a(em_ebi.c.obj)
+ .text.EBI_TFTTimingSet
+                0x0000000000000000       0x2c libemlib.a(em_ebi.c.obj)
+ .text.EBI_BankByteLaneEnable
+                0x0000000000000000       0x78 libemlib.a(em_ebi.c.obj)
+ .text.EBI_AltMapEnable
+                0x0000000000000000       0x24 libemlib.a(em_ebi.c.obj)
+ .text          0x0000000000000000        0x0 libemlib.a(em_gpio.c.obj)
+ .data          0x0000000000000000        0x0 libemlib.a(em_gpio.c.obj)
+ .bss           0x0000000000000000        0x0 libemlib.a(em_gpio.c.obj)
+ .text.BUS_RegBitWrite
+                0x0000000000000000       0x24 libemlib.a(em_gpio.c.obj)
+ .text.BUS_RegMaskedWrite
+                0x0000000000000000       0x20 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_EM4SetPinRetention
+                0x0000000000000000       0x3c libemlib.a(em_gpio.c.obj)
+ .text.GPIO_DbgLocationSet
+                0x0000000000000000       0x24 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_DriveModeSet
+                0x0000000000000000       0x84 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_ExtIntConfig
+                0x0000000000000000       0xec libemlib.a(em_gpio.c.obj)
+ .text.GPIO_PinModeGet
+                0x0000000000000000       0x98 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_EM4EnablePinWakeup
+                0x0000000000000000       0x58 libemlib.a(em_gpio.c.obj)
+ .text          0x0000000000000000        0x0 libemlib.a(em_system.c.obj)
+ .data          0x0000000000000000        0x0 libemlib.a(em_system.c.obj)
+ .bss           0x0000000000000000        0x0 libemlib.a(em_system.c.obj)
+ .text.SYSTEM_GetCalibrationValue
+                0x0000000000000000       0x50 libemlib.a(em_system.c.obj)
+ .text          0x0000000000000000        0x0 libemlib.a(em_usart.c.obj)
+ .data          0x0000000000000000        0x0 libemlib.a(em_usart.c.obj)
+ .bss           0x0000000000000000        0x0 libemlib.a(em_usart.c.obj)
+ .text.USART_BaudrateCalc
+                0x0000000000000000      0x120 libemlib.a(em_usart.c.obj)
+ .text.USART_BaudrateGet
+                0x0000000000000000       0x58 libemlib.a(em_usart.c.obj)
+ .text.USARTn_InitIrDA
+                0x0000000000000000       0x70 libemlib.a(em_usart.c.obj)
+ .text.USART_InitI2s
+                0x0000000000000000       0x98 libemlib.a(em_usart.c.obj)
+ .text.USART_InitPrsTrigger
+                0x0000000000000000       0x58 libemlib.a(em_usart.c.obj)
+ .text.USART_RxDouble
+                0x0000000000000000       0x20 libemlib.a(em_usart.c.obj)
+ .text.USART_RxDoubleExt
+                0x0000000000000000       0x1c libemlib.a(em_usart.c.obj)
+ .text.USART_RxExt
+                0x0000000000000000       0x20 libemlib.a(em_usart.c.obj)
+ .text.USART_SpiTransfer
+                0x0000000000000000       0x3c libemlib.a(em_usart.c.obj)
+ .text.USART_TxDouble
+                0x0000000000000000       0x28 libemlib.a(em_usart.c.obj)
+ .text.USART_TxDoubleExt
+                0x0000000000000000       0x20 libemlib.a(em_usart.c.obj)
+ .text.USART_TxExt
+                0x0000000000000000       0x28 libemlib.a(em_usart.c.obj)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+ .text          0x0000000000000000       0x30 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000000       0x2c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000      0x2ec /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_udivmoddi4.o)
+ .text          0x0000000000000000        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .text.malloc   0x0000000000000000       0x10 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000       0xfe /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .text          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .data          0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000100000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+
+.text           0x0000000000000000     0x5074
+ *(.vectors)
+ .vectors       0x0000000000000000       0xdc libdevice.a(startup_efm32gg.S.obj)
+                0x0000000000000000                __Vectors
+                0x00000000000000dc                __Vectors_End = .
+                0x00000000000000dc                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x00000000000000dc                __end__ = .
+ *(.text*)
+ .text          0x00000000000000dc       0x5c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .text          0x0000000000000138       0x74 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x0000000000000138                _mainCRTStartup
+                0x0000000000000138                _start
+ .text.SYSTEM_GetProdRev
+                0x00000000000001ac       0x14 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .text.CHIP_Init
+                0x00000000000001c0       0x44 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .text.reset_blink
+                0x0000000000000204       0x3c CMakeFiles/efm32-test.dir/source/main.c.obj
+                0x0000000000000204                reset_blink
+ .text.main     0x0000000000000240       0x20 CMakeFiles/efm32-test.dir/source/main.c.obj
+                0x0000000000000240                main
+ .text.setup_LCD
+                0x0000000000000260       0x68 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x0000000000000260                setup_LCD
+ .text.update   0x00000000000002c8       0x18 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x00000000000002c8                update
+ .text.enter_display_mode
+                0x00000000000002e0       0x14 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x00000000000002e0                enter_display_mode
+ .text.clear    0x00000000000002f4       0x14 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x00000000000002f4                clear
+ .text.reset    0x0000000000000308       0x48 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x0000000000000308                reset
+ .text.get_buffer
+                0x0000000000000350        0xc CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x0000000000000350                get_buffer
+ .text.SPI_setup
+                0x000000000000035c      0x2b8 CMakeFiles/efm32-test.dir/source/spi.c.obj
+                0x000000000000035c                SPI_setup
+ .text.init_spi
+                0x0000000000000614       0x28 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+                0x0000000000000614                init_spi
+ .text.send_buffer
+                0x000000000000063c       0x1c CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+                0x000000000000063c                send_buffer
+ .text.USART1_sendBuffer
+                0x0000000000000658       0x80 CMakeFiles/efm32-test.dir/source/usart.c.obj
+                0x0000000000000658                USART1_sendBuffer
+ .text.validate_character
+                0x00000000000006d8       0x70 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x00000000000006d8                validate_character
+ .text.writef   0x0000000000000748       0x84 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x0000000000000748                writef
+ .text.write_string
+                0x00000000000007cc       0x70 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x00000000000007cc                write_string
+ .text.enter_char
+                0x000000000000083c      0x130 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x000000000000083c                enter_char
+ .text.get_char
+                0x000000000000096c      0x104 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x000000000000096c                get_char
+ .text.NVIC_EnableIRQ
+                0x0000000000000a70       0x2c CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.NVIC_ClearPendingIRQ
+                0x0000000000000a9c       0x30 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.EMU_EnterEM1
+                0x0000000000000acc       0x18 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.USART_IntClear
+                0x0000000000000ae4       0x14 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.USART_IntDisable
+                0x0000000000000af8       0x1c CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.USART_IntEnable
+                0x0000000000000b14       0x18 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.USART_IntGet
+                0x0000000000000b2c       0x10 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .text.setup_uart
+                0x0000000000000b3c       0x78 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000b3c                setup_uart
+ .text.uartSetup
+                0x0000000000000bb4       0xc8 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000bb4                uartSetup
+ .text.uartPutData
+                0x0000000000000c7c       0x98 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000c7c                uartPutData
+ .text.uartGetData
+                0x0000000000000d14       0x84 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000d14                uartGetData
+ .text.cmuSetup
+                0x0000000000000d98       0x20 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000d98                cmuSetup
+ .text.UART1_RX_IRQHandler
+                0x0000000000000db8       0x58 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000db8                UART1_RX_IRQHandler
+ .text.UART1_TX_IRQHandler
+                0x0000000000000e10       0x88 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000e10                UART1_TX_IRQHandler
+ .text.set_recv_callback
+                0x0000000000000e98       0x14 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000000e98                set_recv_callback
+ .text.GPIO_PinOutClear
+                0x0000000000000eac       0x60 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.GPIO_PinOutSet
+                0x0000000000000f0c       0x60 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.BSP_Disable
+                0x0000000000000f6c       0x2c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x0000000000000f6c                BSP_Disable
+ .text.BSP_Init
+                0x0000000000000f98       0x8c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x0000000000000f98                BSP_Init
+ .text.BSP_BusControlModeSet
+                0x0000000000001024       0xc4 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x0000000000001024                BSP_BusControlModeSet
+ .text.BSP_EbiExtendedAddressRange
+                0x00000000000010e8       0x34 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x00000000000010e8                BSP_EbiExtendedAddressRange
+ .text.BSP_PeripheralAccess
+                0x000000000000111c      0x41c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x000000000000111c                BSP_PeripheralAccess
+ .text.BSP_RegisterRead
+                0x0000000000001538       0x2c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x0000000000001538                BSP_RegisterRead
+ .text.BSP_RegisterWrite
+                0x0000000000001564       0x38 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                0x0000000000001564                BSP_RegisterWrite
+ .text.EbiDisable
+                0x000000000000159c      0x1a4 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.EbiInit  0x0000000000001740      0x334 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiBcAccess
+                0x0000000000001a74       0xa0 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiBcDisable
+                0x0000000000001b14       0x4c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiBcInit
+                0x0000000000001b60       0x80 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiControl
+                0x0000000000001be0       0x6c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiInit  0x0000000000001c4c       0x4c CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiRegisterRead
+                0x0000000000001c98       0x80 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.SpiRegisterWrite
+                0x0000000000001d18       0x70 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .text.update_status
+                0x0000000000001d88       0xd0 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001d88                update_status
+ .text.reset_table
+                0x0000000000001e58       0x6c CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001e58                reset_table
+ *fill*         0x0000000000001ec4        0x4 
+ .text.parse_command
+                0x0000000000001ec8       0xc4 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001ec8                parse_command
+ .text.recv_char
+                0x0000000000001f8c       0x38 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001f8c                recv_char
+ .text.communicator_setup_lcd
+                0x0000000000001fc4        0xc CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001fc4                communicator_setup_lcd
+ .text.communicator_setup_uart
+                0x0000000000001fd0       0x14 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001fd0                communicator_setup_uart
+ .text.setup_project
+                0x0000000000001fe4       0x1c CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000000001fe4                setup_project
+ .text.ceil     0x0000000000002000       0x40 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+                0x0000000000002000                ceil
+ .text.write_image
+                0x0000000000002040       0xf4 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+                0x0000000000002040                write_image
+ .text          0x0000000000002134       0x30 libdevice.a(startup_efm32gg.S.obj)
+                0x0000000000002134                Reset_Handler
+                0x0000000000002160                DebugMon_Handler
+                0x0000000000002160                USART0_TX_IRQHandler
+                0x0000000000002160                I2C0_IRQHandler
+                0x0000000000002160                HardFault_Handler
+                0x0000000000002160                LEUART1_IRQHandler
+                0x0000000000002160                SysTick_Handler
+                0x0000000000002160                USART1_RX_IRQHandler
+                0x0000000000002160                PendSV_Handler
+                0x0000000000002160                NMI_Handler
+                0x0000000000002160                I2C1_IRQHandler
+                0x0000000000002160                TIMER3_IRQHandler
+                0x0000000000002160                USART1_TX_IRQHandler
+                0x0000000000002160                MSC_IRQHandler
+                0x0000000000002160                ADC0_IRQHandler
+                0x0000000000002160                UsageFault_Handler
+                0x0000000000002160                LEUART0_IRQHandler
+                0x0000000000002160                GPIO_EVEN_IRQHandler
+                0x0000000000002160                UART0_TX_IRQHandler
+                0x0000000000002160                RTC_IRQHandler
+                0x0000000000002160                TIMER0_IRQHandler
+                0x0000000000002160                LCD_IRQHandler
+                0x0000000000002160                PCNT2_IRQHandler
+                0x0000000000002160                UART0_RX_IRQHandler
+                0x0000000000002160                LETIMER0_IRQHandler
+                0x0000000000002160                TIMER1_IRQHandler
+                0x0000000000002160                USART2_RX_IRQHandler
+                0x0000000000002160                Default_Handler
+                0x0000000000002160                EMU_IRQHandler
+                0x0000000000002160                PCNT0_IRQHandler
+                0x0000000000002160                USB_IRQHandler
+                0x0000000000002160                BURTC_IRQHandler
+                0x0000000000002160                PCNT1_IRQHandler
+                0x0000000000002160                ACMP0_IRQHandler
+                0x0000000000002160                USART0_RX_IRQHandler
+                0x0000000000002160                MemManage_Handler
+                0x0000000000002160                SVC_Handler
+                0x0000000000002160                DAC0_IRQHandler
+                0x0000000000002160                CMU_IRQHandler
+                0x0000000000002160                EBI_IRQHandler
+                0x0000000000002160                LESENSE_IRQHandler
+                0x0000000000002160                GPIO_ODD_IRQHandler
+                0x0000000000002160                AES_IRQHandler
+                0x0000000000002160                VCMP_IRQHandler
+                0x0000000000002160                DMA_IRQHandler
+                0x0000000000002160                BusFault_Handler
+                0x0000000000002160                TIMER2_IRQHandler
+                0x0000000000002160                USART2_TX_IRQHandler
+ .text.GetProdRev
+                0x0000000000002164       0x14 libdevice.a(system_efm32gg.c.obj)
+ .text.SystemCoreClockGet
+                0x0000000000002178       0x34 libdevice.a(system_efm32gg.c.obj)
+                0x0000000000002178                SystemCoreClockGet
+ .text.SystemHFClockGet
+                0x00000000000021ac      0x100 libdevice.a(system_efm32gg.c.obj)
+                0x00000000000021ac                SystemHFClockGet
+ .text.SystemInit
+                0x00000000000022ac        0x4 libdevice.a(system_efm32gg.c.obj)
+                0x00000000000022ac                SystemInit
+ .text.SystemLFRCOClockGet
+                0x00000000000022b0        0x8 libdevice.a(system_efm32gg.c.obj)
+                0x00000000000022b0                SystemLFRCOClockGet
+ .text.SystemULFRCOClockGet
+                0x00000000000022b8        0x8 libdevice.a(system_efm32gg.c.obj)
+                0x00000000000022b8                SystemULFRCOClockGet
+ .text.SystemLFXOClockGet
+                0x00000000000022c0        0xc libdevice.a(system_efm32gg.c.obj)
+                0x00000000000022c0                SystemLFXOClockGet
+ .text.BUS_RegBitWrite
+                0x00000000000022cc       0x24 libemlib.a(em_cmu.c.obj)
+ .text.BUS_RegBitRead
+                0x00000000000022f0       0x20 libemlib.a(em_cmu.c.obj)
+ .text.CMU_DivToLog2
+                0x0000000000002310       0x28 libemlib.a(em_cmu.c.obj)
+ .text.SYSTEM_GetProdRev
+                0x0000000000002338       0x14 libemlib.a(em_cmu.c.obj)
+ .text.SYSTEM_GetFamily
+                0x000000000000234c       0x14 libemlib.a(em_cmu.c.obj)
+ .text.maxFreqHfle
+                0x0000000000002360       0x80 libemlib.a(em_cmu.c.obj)
+ .text.setHfLeConfig
+                0x00000000000023e0       0x60 libemlib.a(em_cmu.c.obj)
+ .text.getHfLeConfig
+                0x0000000000002440       0x1c libemlib.a(em_cmu.c.obj)
+ .text.auxClkGet
+                0x000000000000245c       0xb0 libemlib.a(em_cmu.c.obj)
+ .text.dbgClkGet
+                0x000000000000250c       0x40 libemlib.a(em_cmu.c.obj)
+ .text.lfClkGet
+                0x000000000000254c       0xe4 libemlib.a(em_cmu.c.obj)
+ .text.syncReg  0x0000000000002630       0x2c libemlib.a(em_cmu.c.obj)
+ .text.usbCClkGet
+                0x000000000000265c       0x4c libemlib.a(em_cmu.c.obj)
+ .text.CMU_ClockEnable
+                0x00000000000026a8       0xd0 libemlib.a(em_cmu.c.obj)
+                0x00000000000026a8                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x0000000000002778      0x1d4 libemlib.a(em_cmu.c.obj)
+                0x0000000000002778                CMU_ClockFreqGet
+ .text.CMU_ClockSelectGet
+                0x000000000000294c      0x180 libemlib.a(em_cmu.c.obj)
+                0x000000000000294c                CMU_ClockSelectGet
+ .text.BUS_RegBitWrite
+                0x0000000000002acc       0x24 libemlib.a(em_ebi.c.obj)
+ .text.EBI_RouteBitWrite
+                0x0000000000002af0       0x20 libemlib.a(em_ebi.c.obj)
+ .text.EBI_Init
+                0x0000000000002b10      0x358 libemlib.a(em_ebi.c.obj)
+                0x0000000000002b10                EBI_Init
+ .text.EBI_Disable
+                0x0000000000002e68       0x14 libemlib.a(em_ebi.c.obj)
+                0x0000000000002e68                EBI_Disable
+ .text.EBI_ChipSelectEnable
+                0x0000000000002e7c       0x6c libemlib.a(em_ebi.c.obj)
+                0x0000000000002e7c                EBI_ChipSelectEnable
+ .text.EBI_BankReadTimingConfig
+                0x0000000000002ee8      0x108 libemlib.a(em_ebi.c.obj)
+                0x0000000000002ee8                EBI_BankReadTimingConfig
+ .text.EBI_BankReadTimingSet
+                0x0000000000002ff0       0x9c libemlib.a(em_ebi.c.obj)
+                0x0000000000002ff0                EBI_BankReadTimingSet
+ .text.EBI_BankWriteTimingConfig
+                0x000000000000308c       0xc4 libemlib.a(em_ebi.c.obj)
+                0x000000000000308c                EBI_BankWriteTimingConfig
+ .text.EBI_BankWriteTimingSet
+                0x0000000000003150       0x9c libemlib.a(em_ebi.c.obj)
+                0x0000000000003150                EBI_BankWriteTimingSet
+ .text.EBI_BankAddressTimingConfig
+                0x00000000000031ec       0x84 libemlib.a(em_ebi.c.obj)
+                0x00000000000031ec                EBI_BankAddressTimingConfig
+ .text.EBI_BankAddressTimingSet
+                0x0000000000003270       0x94 libemlib.a(em_ebi.c.obj)
+                0x0000000000003270                EBI_BankAddressTimingSet
+ .text.EBI_BankPolaritySet
+                0x0000000000003304      0x180 libemlib.a(em_ebi.c.obj)
+                0x0000000000003304                EBI_BankPolaritySet
+ .text.GPIO_PinOutClear
+                0x0000000000003484       0x60 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_PinOutSet
+                0x00000000000034e4       0x60 libemlib.a(em_gpio.c.obj)
+ .text.GPIO_PinModeSet
+                0x0000000000003544      0x138 libemlib.a(em_gpio.c.obj)
+                0x0000000000003544                GPIO_PinModeSet
+ .text.SYSTEM_ChipRevisionGet
+                0x000000000000367c       0x7c libemlib.a(em_system.c.obj)
+                0x000000000000367c                SYSTEM_ChipRevisionGet
+ .text.USART_BaudrateAsyncSet
+                0x00000000000036f8       0xb4 libemlib.a(em_usart.c.obj)
+                0x00000000000036f8                USART_BaudrateAsyncSet
+ .text.USART_BaudrateSyncSet
+                0x00000000000037ac       0x40 libemlib.a(em_usart.c.obj)
+                0x00000000000037ac                USART_BaudrateSyncSet
+ .text.USART_Enable
+                0x00000000000037ec       0x6c libemlib.a(em_usart.c.obj)
+                0x00000000000037ec                USART_Enable
+ .text.USART_InitAsync
+                0x0000000000003858       0xb0 libemlib.a(em_usart.c.obj)
+                0x0000000000003858                USART_InitAsync
+ .text.USART_InitSync
+                0x0000000000003908       0xc8 libemlib.a(em_usart.c.obj)
+                0x0000000000003908                USART_InitSync
+ .text.USART_Reset
+                0x00000000000039d0       0xa8 libemlib.a(em_usart.c.obj)
+                0x00000000000039d0                USART_Reset
+ .text.USART_Rx
+                0x0000000000003a78       0x20 libemlib.a(em_usart.c.obj)
+                0x0000000000003a78                USART_Rx
+ .text.USART_Tx
+                0x0000000000003a98       0x28 libemlib.a(em_usart.c.obj)
+                0x0000000000003a98                USART_Tx
+ .text          0x0000000000003ac0      0x370 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000000003ac0                __aeabi_drsub
+                0x0000000000003ac8                __subdf3
+                0x0000000000003ac8                __aeabi_dsub
+                0x0000000000003acc                __aeabi_dadd
+                0x0000000000003acc                __adddf3
+                0x0000000000003d44                __aeabi_ui2d
+                0x0000000000003d44                __floatunsidf
+                0x0000000000003d64                __floatsidf
+                0x0000000000003d64                __aeabi_i2d
+                0x0000000000003d88                __extendsfdf2
+                0x0000000000003d88                __aeabi_f2d
+                0x0000000000003dc4                __aeabi_ul2d
+                0x0000000000003dc4                __floatundidf
+                0x0000000000003dd4                __aeabi_l2d
+                0x0000000000003dd4                __floatdidf
+ .text          0x0000000000003e30      0x424 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+                0x0000000000003e30                __aeabi_dmul
+                0x0000000000003e30                __muldf3
+                0x0000000000004084                __aeabi_ddiv
+                0x0000000000004084                __divdf3
+ .text          0x0000000000004254       0x40 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000000004254                __fixunsdfsi
+                0x0000000000004254                __aeabi_d2uiz
+ .text          0x0000000000004294       0xa0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x0000000000004294                __aeabi_d2f
+                0x0000000000004294                __truncdfsf2
+ .text          0x0000000000004334      0x21c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000004334                __aeabi_frsub
+                0x000000000000433c                __aeabi_fsub
+                0x000000000000433c                __subsf3
+                0x0000000000004340                __aeabi_fadd
+                0x0000000000004340                __addsf3
+                0x00000000000044a0                __aeabi_ui2f
+                0x00000000000044a0                __floatunsisf
+                0x00000000000044a8                __floatsisf
+                0x00000000000044a8                __aeabi_i2f
+                0x00000000000044c4                __aeabi_ul2f
+                0x00000000000044c4                __floatundisf
+                0x00000000000044d4                __aeabi_l2f
+                0x00000000000044d4                __floatdisf
+ .text          0x0000000000004550       0xec /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+                0x0000000000004550                __gesf2
+                0x0000000000004550                __gtsf2
+                0x0000000000004558                __ltsf2
+                0x0000000000004558                __lesf2
+                0x0000000000004560                __nesf2
+                0x0000000000004560                __eqsf2
+                0x0000000000004560                __cmpsf2
+                0x00000000000045c0                __aeabi_cfrcmple
+                0x00000000000045c8                __aeabi_cfcmpeq
+                0x00000000000045c8                __aeabi_cfcmple
+                0x00000000000045d8                __aeabi_fcmpeq
+                0x00000000000045ec                __aeabi_fcmplt
+                0x0000000000004600                __aeabi_fcmple
+                0x0000000000004614                __aeabi_fcmpge
+                0x0000000000004628                __aeabi_fcmpgt
+ .text          0x000000000000463c       0x4c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+                0x000000000000463c                __fixsfsi
+                0x000000000000463c                __aeabi_f2iz
+ .text.exit     0x0000000000004688       0x28 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+                0x0000000000004688                exit
+ .text.__libc_init_array
+                0x00000000000046b0       0x4c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+                0x00000000000046b0                __libc_init_array
+ .text.free     0x00000000000046fc       0x10 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+                0x00000000000046fc                free
+ .text.memset   0x000000000000470c       0x10 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+                0x000000000000470c                memset
+ .text._free_r  0x000000000000471c       0x98 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000000471c                _free_r
+ .text._malloc_r
+                0x00000000000047b4       0xbc /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000000047b4                _malloc_r
+ .text._sbrk_r  0x0000000000004870       0x20 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000004870                _sbrk_r
+ .text._vsnprintf_r
+                0x0000000000004890       0x56 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+                0x0000000000004890                _vsnprintf_r
+                0x0000000000004890                _vsniprintf_r
+ *fill*         0x00000000000048e6        0x2 
+ .text.vsnprintf
+                0x00000000000048e8       0x1c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+                0x00000000000048e8                vsnprintf
+                0x00000000000048e8                vsniprintf
+ .text.__malloc_lock
+                0x0000000000004904        0x2 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+                0x0000000000004904                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000004906        0x2 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+                0x0000000000004906                __malloc_unlock
+ .text.__ssputs_r
+                0x0000000000004908       0xb2 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000004908                __ssputs_r
+ *fill*         0x00000000000049ba        0x2 
+ .text._svfprintf_r
+                0x00000000000049bc      0x1e8 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000000049bc                _svfprintf_r
+                0x00000000000049bc                _svfiprintf_r
+ .text._printf_common
+                0x0000000000004ba4       0xec /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000004ba4                _printf_common
+ .text._printf_i
+                0x0000000000004c90      0x24c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000004c90                _printf_i
+ .text.memchr   0x0000000000004edc       0x1c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000000004edc                memchr
+ .text.memcpy   0x0000000000004ef8       0x16 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000004ef8                memcpy
+ .text.memmove  0x0000000000004f0e       0x36 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+                0x0000000000004f0e                memmove
+ .text._realloc_r
+                0x0000000000004f44       0x4c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000000004f44                _realloc_r
+ .text._malloc_usable_size_r
+                0x0000000000004f90       0x14 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000000004f90                _malloc_usable_size_r
+ .text._sbrk    0x0000000000004fa4       0x1c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+                0x0000000000004fa4                _sbrk
+ .text._exit    0x0000000000004fc0        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                0x0000000000004fc0                _exit
+ *(.init)
+ .init          0x0000000000004fc4        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x0000000000004fc4                _init
+ .init          0x0000000000004fc8        0x8 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x0000000000004fd0        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x0000000000004fd0                _fini
+ .fini          0x0000000000004fd4        0x8 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x0000000000004fdc        0x5 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ *fill*         0x0000000000004fe1        0x3 
+ .rodata.overflowString
+                0x0000000000004fe4       0x14 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000000004fe4                overflowString
+ .rodata        0x0000000000004ff8       0x18 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .rodata        0x0000000000005010       0x27 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ *fill*         0x0000000000005037        0x1 
+ .rodata._global_impure_ptr
+                0x0000000000005038        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+                0x0000000000005038                _global_impure_ptr
+ .rodata.str1.1
+                0x000000000000503c       0x11 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata.str1.1
+                0x000000000000504d       0x22 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *(.eh_frame*)
+ *fill*         0x000000000000506f        0x1 
+ .eh_frame      0x0000000000005070        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .eh_frame      0x0000000000005070        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+
+.glue_7         0x0000000000005074        0x0
+ .glue_7        0x0000000000005074        0x0 linker stubs
+
+.glue_7t        0x0000000000005074        0x0
+ .glue_7t       0x0000000000005074        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000005074        0x0
+ .vfp11_veneer  0x0000000000005074        0x0 linker stubs
+
+.v4_bx          0x0000000000005074        0x0
+ .v4_bx         0x0000000000005074        0x0 linker stubs
+
+.iplt           0x0000000000005074        0x0
+ .iplt          0x0000000000005074        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000005074                __exidx_start = .
+
+.ARM.exidx      0x0000000000005074        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000005074        0x8 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x000000000000507c                __exidx_end = .
+                0x000000000000507c                __etext = .
+
+.rel.dyn        0x000000000000507c        0x0
+ .rel.iplt      0x000000000000507c        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.data           0x0000000020000000      0x654 load address 0x000000000000507c
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.clear_mode_buffer
+                0x0000000020000000        0x1 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x0000000020000000                clear_mode_buffer
+ *fill*         0x0000000020000001        0x3 
+ .data.chars_big
+                0x0000000020000004      0x138 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                0x0000000020000004                chars_big
+ .data.uart     0x000000002000013c        0x4 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .data.uartInit
+                0x0000000020000140       0x18 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .data.start_image
+                0x0000000020000158      0x480 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x0000000020000158                start_image
+ .data.SystemHFXOClock
+                0x00000000200005d8        0x4 libdevice.a(system_efm32gg.c.obj)
+ .data.SystemLFXOClock
+                0x00000000200005dc        0x4 libdevice.a(system_efm32gg.c.obj)
+ .data.SystemCoreClock
+                0x00000000200005e0        0x4 libdevice.a(system_efm32gg.c.obj)
+                0x00000000200005e0                SystemCoreClock
+ .data.impure_data
+                0x00000000200005e4       0x60 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000020000644        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+                0x0000000020000644                _impure_ptr
+                0x0000000020000648                . = ALIGN (0x4)
+ *(.ram)
+                0x0000000020000648                . = ALIGN (0x4)
+                0x0000000020000648                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000020000648                PROVIDE (__preinit_array_end, .)
+                0x0000000020000648                . = ALIGN (0x4)
+                0x0000000020000648                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000020000648        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+                0x000000002000064c                PROVIDE (__init_array_end, .)
+                0x000000002000064c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x000000002000064c        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x0000000020000650        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .jcr           0x0000000020000650        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+                0x0000000020000654                . = ALIGN (0x4)
+                0x0000000020000654                __data_end__ = .
+
+.igot.plt       0x0000000020000654        0x0 load address 0x00000000000056d0
+ .igot.plt      0x0000000020000654        0x0 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+
+.bss            0x0000000020000654      0xd88 load address 0x00000000000056d0
+                0x0000000020000654                . = ALIGN (0x4)
+                0x0000000020000654                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020000654       0x1c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .bss.display_mode_buffer
+                0x0000000020000670        0x1 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x0000000020000670                display_mode_buffer
+ *fill*         0x0000000020000671        0x3 
+ .bss.txBuf     0x0000000020000674      0x110 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x0000000020000674                txBuf
+ .bss.bspOperationMode
+                0x0000000020000784        0x4 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .bss.busMode   0x0000000020000788        0x1 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ *fill*         0x0000000020000789        0x3 
+ .bss.lastAddr  0x000000002000078c        0x4 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .bss.bcFwVersion
+                0x0000000020000790        0x2 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ *fill*         0x0000000020000792        0x2 
+ .bss.__malloc_sbrk_start
+                0x0000000020000794        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000794                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x0000000020000798        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000798                __malloc_free_list
+ .bss.heap_end.4167
+                0x000000002000079c        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x00000000200007a0      0x903 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                0x00000000200007a0                buffer
+ *fill*         0x00000000200010a3        0x1 
+ COMMON         0x00000000200010a4      0x114 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                0x00000000200010a4                recv_callback
+                0x00000000200010a8                rxBuf
+ COMMON         0x00000000200011b8      0x220 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                0x00000000200011b8                pynq_map
+                0x00000000200011c0                pynqs
+                0x00000000200011d0                pynq_num
+                0x00000000200011d4                last_char
+                0x00000000200011d8                com_buffer
+ COMMON         0x00000000200013d8        0x4 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+                0x00000000200013d8                errno
+                0x00000000200013dc                . = ALIGN (0x4)
+                0x00000000200013dc                __bss_end__ = .
+
+.heap           0x00000000200013e0      0xc00
+                0x00000000200013e0                __HeapBase = .
+                0x00000000200013e0                __end__ = .
+                0x00000000200013e0                end = __end__
+                0x00000000200013e0                _end = __end__
+ *(.heap*)
+ .heap          0x00000000200013e0      0xc00 libdevice.a(startup_efm32gg.S.obj)
+                0x0000000020001fe0                __HeapLimit = .
+
+.stack_dummy    0x00000000200013e0      0x400
+ *(.stack*)
+ .stack         0x00000000200013e0      0x400 libdevice.a(startup_efm32gg.S.obj)
+                0x0000000020020000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002001fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020020000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x0000000000000001                ASSERT ((LENGTH (FLASH) >= (__etext + SIZEOF (.data))), FLASH memory overflowed !)
+LOAD CMakeFiles/efm32-test.dir/source/main.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/spi.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/usart.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/uart.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/communicator.c.obj
+LOAD CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+LOAD libdevice.a
+LOAD libemlib.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a
+START GROUP
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libg_nano.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+LOAD /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+OUTPUT(efm32-test elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x1b /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x0000000000000065       0x33 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .ARM.attributes
+                0x0000000000000098       0x33 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .ARM.attributes
+                0x00000000000000cb       0x33 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .ARM.attributes
+                0x00000000000000fe       0x33 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .ARM.attributes
+                0x0000000000000131       0x33 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .ARM.attributes
+                0x0000000000000164       0x33 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .ARM.attributes
+                0x0000000000000197       0x33 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .ARM.attributes
+                0x00000000000001ca       0x33 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .ARM.attributes
+                0x00000000000001fd       0x33 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .ARM.attributes
+                0x0000000000000230       0x33 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .ARM.attributes
+                0x0000000000000263       0x1b libdevice.a(startup_efm32gg.S.obj)
+ .ARM.attributes
+                0x000000000000027e       0x33 libdevice.a(system_efm32gg.c.obj)
+ .ARM.attributes
+                0x00000000000002b1       0x33 libemlib.a(em_cmu.c.obj)
+ .ARM.attributes
+                0x00000000000002e4       0x33 libemlib.a(em_ebi.c.obj)
+ .ARM.attributes
+                0x0000000000000317       0x33 libemlib.a(em_gpio.c.obj)
+ .ARM.attributes
+                0x000000000000034a       0x33 libemlib.a(em_system.c.obj)
+ .ARM.attributes
+                0x000000000000037d       0x33 libemlib.a(em_usart.c.obj)
+ .ARM.attributes
+                0x00000000000003b0       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000000003cd       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000000003ea       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000407       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000424       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000441       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000000000000045e       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x000000000000047b       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000004a8       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000004d5       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000502       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x000000000000052f       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000055c       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000589       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000000005b6       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000000005e3       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+ .ARM.attributes
+                0x0000000000000610       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000000000000063d       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x000000000000066a       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x0000000000000697       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000000006c4       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x00000000000006f1       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000000000000071e       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000000000000074b       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000778       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000000007a5       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000000007d2       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000000007ff       0x2d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
+ .ARM.attributes
+                0x000000000000082c       0x1d /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+
+.comment        0x0000000000000000       0x6e
+ .comment       0x0000000000000000       0x6e CMakeFiles/efm32-test.dir/source/main.c.obj
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .comment       0x000000000000006e       0x6f CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .comment       0x000000000000006e       0x6f libdevice.a(system_efm32gg.c.obj)
+ .comment       0x000000000000006e       0x6f libemlib.a(em_cmu.c.obj)
+ .comment       0x000000000000006e       0x6f libemlib.a(em_ebi.c.obj)
+ .comment       0x000000000000006e       0x6f libemlib.a(em_gpio.c.obj)
+ .comment       0x000000000000006e       0x6f libemlib.a(em_system.c.obj)
+ .comment       0x000000000000006e       0x6f libemlib.a(em_usart.c.obj)
+
+.debug_info     0x0000000000000000     0x8416
+ .debug_info    0x0000000000000000      0x4f7 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_info    0x00000000000004f7      0x2ea CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_info    0x00000000000007e1      0x42d CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_info    0x0000000000000c0e      0x278 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_info    0x0000000000000e86      0x375 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_info    0x00000000000011fb      0x3bf CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_info    0x00000000000015ba      0xf85 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_info    0x000000000000253f     0x15d4 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_info    0x0000000000003b13      0x2a5 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_info    0x0000000000003db8      0x189 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_info    0x0000000000003f41       0xeb libdevice.a(startup_efm32gg.S.obj)
+ .debug_info    0x000000000000402c      0x577 libdevice.a(system_efm32gg.c.obj)
+ .debug_info    0x00000000000045a3     0x156e libemlib.a(em_cmu.c.obj)
+ .debug_info    0x0000000000005b11     0x112a libemlib.a(em_ebi.c.obj)
+ .debug_info    0x0000000000006c3b      0x667 libemlib.a(em_gpio.c.obj)
+ .debug_info    0x00000000000072a2      0x272 libemlib.a(em_system.c.obj)
+ .debug_info    0x0000000000007514      0xf02 libemlib.a(em_usart.c.obj)
+
+.debug_abbrev   0x0000000000000000     0x193b
+ .debug_abbrev  0x0000000000000000      0x15f CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_abbrev  0x000000000000015f      0x179 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_abbrev  0x00000000000002d8      0x107 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_abbrev  0x00000000000003df       0xb8 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_abbrev  0x0000000000000497      0x103 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_abbrev  0x000000000000059a      0x13b CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_abbrev  0x00000000000006d5      0x322 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_abbrev  0x00000000000009f7      0x25a CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_abbrev  0x0000000000000c51      0x120 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_abbrev  0x0000000000000d71       0xbb CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_abbrev  0x0000000000000e2c       0x14 libdevice.a(startup_efm32gg.S.obj)
+ .debug_abbrev  0x0000000000000e40      0x16b libdevice.a(system_efm32gg.c.obj)
+ .debug_abbrev  0x0000000000000fab      0x2dc libemlib.a(em_cmu.c.obj)
+ .debug_abbrev  0x0000000000001287      0x210 libemlib.a(em_ebi.c.obj)
+ .debug_abbrev  0x0000000000001497      0x1c2 libemlib.a(em_gpio.c.obj)
+ .debug_abbrev  0x0000000000001659      0x107 libemlib.a(em_system.c.obj)
+ .debug_abbrev  0x0000000000001760      0x1db libemlib.a(em_usart.c.obj)
+
+.debug_loc      0x0000000000000000     0x2129
+ .debug_loc     0x0000000000000000       0x90 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_loc     0x0000000000000090      0x160 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_loc     0x00000000000001f0       0x38 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_loc     0x0000000000000228       0x58 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_loc     0x0000000000000280       0x64 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_loc     0x00000000000002e4      0x126 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_loc     0x000000000000040a      0x2e1 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_loc     0x00000000000006eb      0x561 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_loc     0x0000000000000c4c      0x140 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_loc     0x0000000000000d8c       0x70 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_loc     0x0000000000000dfc       0xe0 libdevice.a(system_efm32gg.c.obj)
+ .debug_loc     0x0000000000000edc      0x728 libemlib.a(em_cmu.c.obj)
+ .debug_loc     0x0000000000001604      0x4dc libemlib.a(em_ebi.c.obj)
+ .debug_loc     0x0000000000001ae0      0x220 libemlib.a(em_gpio.c.obj)
+ .debug_loc     0x0000000000001d00       0x58 libemlib.a(em_system.c.obj)
+ .debug_loc     0x0000000000001d58      0x3d1 libemlib.a(em_usart.c.obj)
+
+.debug_aranges  0x0000000000000000      0x7a0
+ .debug_aranges
+                0x0000000000000000       0x38 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_aranges
+                0x0000000000000038       0x60 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_aranges
+                0x0000000000000098       0x20 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_aranges
+                0x00000000000000b8       0x28 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_aranges
+                0x00000000000000e0       0x28 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_aranges
+                0x0000000000000108       0x40 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_aranges
+                0x0000000000000148       0xa8 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_aranges
+                0x00000000000001f0      0x100 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_aranges
+                0x00000000000002f0       0x50 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_aranges
+                0x0000000000000340       0x28 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_aranges
+                0x0000000000000368       0x20 libdevice.a(startup_efm32gg.S.obj)
+ .debug_aranges
+                0x0000000000000388       0x70 libdevice.a(system_efm32gg.c.obj)
+ .debug_aranges
+                0x00000000000003f8      0x170 libemlib.a(em_cmu.c.obj)
+ .debug_aranges
+                0x0000000000000568       0xe8 libemlib.a(em_ebi.c.obj)
+ .debug_aranges
+                0x0000000000000650       0x70 libemlib.a(em_gpio.c.obj)
+ .debug_aranges
+                0x00000000000006c0       0x28 libemlib.a(em_system.c.obj)
+ .debug_aranges
+                0x00000000000006e8       0xb8 libemlib.a(em_usart.c.obj)
+
+.debug_ranges   0x0000000000000000      0x6c8
+ .debug_ranges  0x0000000000000000       0x28 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_ranges  0x0000000000000028       0x50 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_ranges  0x0000000000000078       0x10 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_ranges  0x0000000000000088       0x18 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_ranges  0x00000000000000a0       0x18 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_ranges  0x00000000000000b8       0x48 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_ranges  0x0000000000000100       0x98 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_ranges  0x0000000000000198       0xf0 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_ranges  0x0000000000000288       0x40 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_ranges  0x00000000000002c8       0x48 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_ranges  0x0000000000000310       0x60 libdevice.a(system_efm32gg.c.obj)
+ .debug_ranges  0x0000000000000370      0x160 libemlib.a(em_cmu.c.obj)
+ .debug_ranges  0x00000000000004d0       0xd8 libemlib.a(em_ebi.c.obj)
+ .debug_ranges  0x00000000000005a8       0x60 libemlib.a(em_gpio.c.obj)
+ .debug_ranges  0x0000000000000608       0x18 libemlib.a(em_system.c.obj)
+ .debug_ranges  0x0000000000000620       0xa8 libemlib.a(em_usart.c.obj)
+
+.debug_line     0x0000000000000000     0x409a
+ .debug_line    0x0000000000000000      0x30c CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_line    0x000000000000030c      0x282 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_line    0x000000000000058e      0x2e8 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_line    0x0000000000000876      0x22c CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_line    0x0000000000000aa2      0x2e0 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_line    0x0000000000000d82      0x2d3 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_line    0x0000000000001055      0x49a CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_line    0x00000000000014ef      0x74f CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_line    0x0000000000001c3e      0x1aa CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_line    0x0000000000001de8      0x19e CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_line    0x0000000000001f86       0xbb libdevice.a(startup_efm32gg.S.obj)
+ .debug_line    0x0000000000002041      0x333 libdevice.a(system_efm32gg.c.obj)
+ .debug_line    0x0000000000002374      0xa54 libemlib.a(em_cmu.c.obj)
+ .debug_line    0x0000000000002dc8      0x601 libemlib.a(em_ebi.c.obj)
+ .debug_line    0x00000000000033c9      0x46b libemlib.a(em_gpio.c.obj)
+ .debug_line    0x0000000000003834      0x2ba libemlib.a(em_system.c.obj)
+ .debug_line    0x0000000000003aee      0x5ac libemlib.a(em_usart.c.obj)
+
+.debug_str      0x0000000000000000     0x3e32
+ .debug_str     0x0000000000000000      0x701 CMakeFiles/efm32-test.dir/source/main.c.obj
+                                        0x767 (size before relaxing)
+ .debug_str     0x0000000000000701      0x123 CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+                                        0x32f (size before relaxing)
+ .debug_str     0x0000000000000824      0x1dd CMakeFiles/efm32-test.dir/source/spi.c.obj
+                                        0x54c (size before relaxing)
+ .debug_str     0x0000000000000a01       0x70 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+                                        0x461 (size before relaxing)
+ .debug_str     0x0000000000000a71       0x8c CMakeFiles/efm32-test.dir/source/usart.c.obj
+                                        0x471 (size before relaxing)
+ .debug_str     0x0000000000000afd      0x106 CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+                                        0x2ea (size before relaxing)
+ .debug_str     0x0000000000000c03      0x808 CMakeFiles/efm32-test.dir/source/uart.c.obj
+                                        0xea2 (size before relaxing)
+ .debug_str     0x000000000000140b      0xbd5 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+                                       0x14c0 (size before relaxing)
+ .debug_str     0x0000000000001fe0      0x123 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+                                        0x2e6 (size before relaxing)
+ .debug_str     0x0000000000002103       0x79 CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+                                        0x25d (size before relaxing)
+ .debug_str     0x000000000000217c      0x223 libdevice.a(system_efm32gg.c.obj)
+                                        0x4b8 (size before relaxing)
+ .debug_str     0x000000000000239f      0xa97 libemlib.a(em_cmu.c.obj)
+                                       0x108c (size before relaxing)
+ .debug_str     0x0000000000002e36      0x870 libemlib.a(em_ebi.c.obj)
+                                        0xe04 (size before relaxing)
+ .debug_str     0x00000000000036a6      0x176 libemlib.a(em_gpio.c.obj)
+                                        0x5fb (size before relaxing)
+ .debug_str     0x000000000000381c       0xba libemlib.a(em_system.c.obj)
+                                        0x2df (size before relaxing)
+ .debug_str     0x00000000000038d6      0x55c libemlib.a(em_usart.c.obj)
+                                        0xdfd (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1834
+ .debug_frame   0x0000000000000000       0x70 CMakeFiles/efm32-test.dir/source/main.c.obj
+ .debug_frame   0x0000000000000070       0xec CMakeFiles/efm32-test.dir/source/lcd_buffer.c.obj
+ .debug_frame   0x000000000000015c       0x30 CMakeFiles/efm32-test.dir/source/spi.c.obj
+ .debug_frame   0x000000000000018c       0x44 CMakeFiles/efm32-test.dir/source/spi_interface.c.obj
+ .debug_frame   0x00000000000001d0       0x44 CMakeFiles/efm32-test.dir/source/usart.c.obj
+ .debug_frame   0x0000000000000214       0xac CMakeFiles/efm32-test.dir/source/custom_font.c.obj
+ .debug_frame   0x00000000000002c0      0x1c8 CMakeFiles/efm32-test.dir/source/uart.c.obj
+ .debug_frame   0x0000000000000488      0x318 CMakeFiles/efm32-test.dir/source/bsp_dk_3201.c.obj
+ .debug_frame   0x00000000000007a0       0xd0 CMakeFiles/efm32-test.dir/source/communicator.c.obj
+ .debug_frame   0x0000000000000870       0x4c CMakeFiles/efm32-test.dir/source/image_writer.c.obj
+ .debug_frame   0x00000000000008bc       0xf0 libdevice.a(system_efm32gg.c.obj)
+ .debug_frame   0x00000000000009ac      0x44c libemlib.a(em_cmu.c.obj)
+ .debug_frame   0x0000000000000df8      0x2ac libemlib.a(em_ebi.c.obj)
+ .debug_frame   0x00000000000010a4      0x130 libemlib.a(em_gpio.c.obj)
+ .debug_frame   0x00000000000011d4       0x40 libemlib.a(em_system.c.obj)
+ .debug_frame   0x0000000000001214      0x214 libemlib.a(em_usart.c.obj)
+ .debug_frame   0x0000000000001428       0x28 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001450       0x2c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x000000000000147c       0x30 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000014ac       0x20 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000014cc       0x38 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000001504       0x2c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000001530       0x2c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x000000000000155c       0x48 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x00000000000015a4       0x30 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000015d4       0x90 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000001664       0x60 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000016c4       0x5c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000001720       0x28 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000001748       0x28 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001770       0x28 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000001798       0x3c /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000017d4       0x20 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000000017f4       0x20 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000001814       0x20 /Users/alfme/Documents/Docs/Programmering/builds/arm-compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
